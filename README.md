@@ -7,7 +7,7 @@ token generator 需要你的Wilddog超级密钥(secret)，所以你需要在收�
 
 ## 安装
 ```
-
+npm install wilddog-token-generator
 ```
 
 
