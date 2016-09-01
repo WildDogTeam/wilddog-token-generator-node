@@ -7,6 +7,7 @@ var WilddogTokenGenerator = function (secret) {
 module.exports = WilddogTokenGenerator;
 WilddogTokenGenerator.prototype.createToken = function (data, opts) {
     var claims = {}
+    claims['iat'] =  Math.round(new Date().getTime() / 1000);
     var options = opts || {};
     for (var o in options) {
         switch (o) {
