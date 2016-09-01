@@ -25,7 +25,7 @@ var token = tokenGenerator.createToken({uid: "12234445"}, {admin:true,expires: n
 * expires 过期时间
 * notBefore 同上
 * admin true|false 是否管理员
-* iat token 生成事件
+* iat token 生成时间，默认当前时间
 
 
 你传入createToken的属性能在规则表达式的`auth`变量中访问到。其他属性可选，但必须包含一个`uid`属性。注意：在新版的wilddog中，必须包含 iat 选项。
