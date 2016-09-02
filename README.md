@@ -16,7 +16,7 @@ npm install wilddog-token-generator
 ```js
 var WilddogTokenGenerator = require("wilddog-token-generator");
 var tokenGenerator = new WilddogTokenGenerator("<YOUR-WILDDOG-SECRET>");
-var token = tokenGenerator.createToken({uid: "12234445"}, {admin:true,expires: new Date().getTime() + 100000000});
+var token = tokenGenerator.createToken({uid: "12234445"}, {admin:true});
 
 ```
 
