@@ -3,7 +3,7 @@ Json Web Token generator for Wilddog
 
 ## 关于安全
 
-token generator 需要你的Wilddog超级密钥(secret)，所以你需要在收信人的服务器上生成token。安全起见，不要在任何客户端生成token。
+token generator 需要你的Wilddog超级密钥(secret)，所以你需要在受信任的服务器上生成token。安全起见，不要在任何客户端生成token。
 
 ## 安装
 ```
