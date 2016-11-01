@@ -1,6 +1,6 @@
 {
   "name": "wilddog-token-generator",
-  "version": "0.1.0",
+  "version": "2.1.0",
   "description": "Json Web Token generator for Wilddog",
   "main": "index.js",
   "scripts": {
