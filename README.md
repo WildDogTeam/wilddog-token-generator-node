@@ -4,6 +4,7 @@ Json Web Token generator for Wilddog
 ## 关于安全
 
 token generator 需要你的 Wilddog 超级密钥（secret），所以你需要在受信任的服务器上生成 token 。安全起见，不要在任何客户端生成 token 。
+注意：本分支只支持Wilddog Auth1.0版本API 不支持Wilddog Auth2.0版本API。
 
 ## 安装
 ```
